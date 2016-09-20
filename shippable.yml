@@ -9,7 +9,11 @@ before_script:
   - mkdir -p shippable/testresults
 
 script:
-   - phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php
+  - if [[ "$SHIPPABLE_PHP_VERSION" == '5.5' ]]; then 
+      phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test.php;
+    else 
+      phpunit  --log-junit shippable/testresults/junit.xml --coverage-xml shippable/codecoverage tests/calculator_test1.php;
+    fi 
 
 
 after_success:
