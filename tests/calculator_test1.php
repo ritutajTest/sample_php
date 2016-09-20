@@ -1,5 +1,5 @@
 <?php
-require_once('calculator1.php'); //our calculator class which we will creater later.
+require_once('coverage/cal1.php'); //our calculator class which we will creater later.
 class CalculatorTest extends PHPUnit_Framework_TestCase{
   
   //test if the add() method in our calculator class
