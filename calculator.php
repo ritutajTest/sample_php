@@ -14,7 +14,7 @@ class Calculator{
   }
 
   public function multiply($numbers_to_multiply){
-      $product = 1;
+      $product = 2;
       foreach($numbers_to_multiply as $num){
           $product = $num * $product;
       }
