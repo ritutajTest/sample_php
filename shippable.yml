@@ -17,7 +17,7 @@ script:
 
 
 after_success:
-  - echo "success Yo Yo"
+  - echo "success Yo Yo Yo"
   
 after_failure:
   - echo "failure"
