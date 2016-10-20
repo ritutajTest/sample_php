@@ -17,7 +17,7 @@ script:
 
 
 after_success:
-  - echo "success Yo dyo Yo Yaasssssso Yoasas"
+  - echo "success Yo dyo Yo Yajjjasssssso Yoasas"
   
 after_failure:
   - echo "failure"
