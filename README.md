@@ -1,4 +1,4 @@
-sgdsgdgsdsdsdsdsdSample PHP
+swdsdsgdsgdgsdsdsdsdsdSample PHP
 ===============
 
 Build sample for standalone PHP build sample.
