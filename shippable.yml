@@ -7,7 +7,7 @@ php:
 env:
   global:
     - BOO=bar
-    - ni-&&
+    - ni=&&
 
 before_script: 
   - mkdir -p shippable/codecoverage
