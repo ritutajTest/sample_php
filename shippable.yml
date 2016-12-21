@@ -3,7 +3,12 @@ language: php
 php: 
   - 5.4
   - 5.5
-  
+
+env:
+  global:
+    - BOO=bar
+    - ni-&&
+
 before_script: 
   - mkdir -p shippable/codecoverage
   - mkdir -p shippable/testresults
