@@ -21,13 +21,4 @@ script:
     fi 
 
 
-integrations:    
-  notifications:
-    - integrationName: slack
-      type: slack
-      recipients:
-        - "#mybuilds" 
-      on_start: always
-      on_success: always
-      on_failure: always
   
