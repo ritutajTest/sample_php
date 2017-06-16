@@ -15,5 +15,10 @@
             <directory>./tests/</directory>
         </testsuite>
     </testsuites>
+    <testsuites>
+         <testsuite name="calculator_test1">
+            <directory>./tests/</directory>
+         </testsuite>
+    </testsuites>
 </phpunit>
 
