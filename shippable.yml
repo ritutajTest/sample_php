@@ -4,7 +4,6 @@ php:
   - 5.4
 
 build:
-  cache: true
   pre_ci:
     - echo "this is pr-ci1"
   ci:
