@@ -1,4 +1,4 @@
-templates1: &template-script -1
+templates1: &template-script-1
   - echo "common-script line 1"
   - echo "common-script line 1"
   - echo "common-script line 1"
