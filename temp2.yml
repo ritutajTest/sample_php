@@ -1,0 +1,14 @@
+templates3: &template-script-3
+  - echo "common-script line 1"
+  - echo "common-script line 2"
+  - echo "common-script line 3"
+  - >
+    echo "multiline common-script line 1";
+    echo "multiline common-script line 2"
+
+templates4: &template-script-4
+  - echo "common-script line 1"
+  - echo "common-script line 2"
+  - echo "common-script line 3"
+  - echo "hello" \
+    "world"
